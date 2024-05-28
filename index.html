@@ -1,38 +1,556 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PI Pieles de vinilo</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="./css/style.css" />
+
 </head>
+
 <body>
-    <header>
+    <header class="header">
+        <img src="/img/pielesdevinilostk.png" alt="Pieles de vinilo" class="pielsticker" />
 
+        <button id="abrir" class="abrir-menu"> <img src="./img/Iconos/burguer.png" width="50px" alt="abrir-menu"><i
+                class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"> <img src="./img/Iconos/close.png" width="50px" alt="cerrar-menu"> <i
+                    class="bi bi-x"></i></button>
+            <ul class="flex-container">
+                <li class="barra b8">
+                    <a href="mailto:ysfiorucci@gmail.com">Email</a>
+                </li>
+                <li class="barra b6"><a href="./pages/horarios.html">Horarios</a></li>
+                <li class="barra b1"><a href="index.html">Inicio</a></li>
+                <li class="barra b7"><a href="./pages/precios.html">Precios</a></li>
+                <li class="barra b9">
+                    <a target="_blank" href="https://www.facebook.com/pielesdeviniloof/photos_albums">Trabajos</a>
+                </li>
+                <li class="barra b10"><a href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="dropdawntiposdevinilo">
+                    <button class="tipobtn"> Tipo de Vinilo</button>
+    
+                    <ul class="tiposdevinilo">
+                        <li class="barra b2"><a href="#tiposdepieles">Tipos de pieles</a></li>
+    
+                        <li class="barra b3"><a href="#personalizados">Personalizados</a></li>
+                        <li class="barra b5"><a href="#comovestir">Como vestirlo</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <br>
     </header>
-    <main>
-        <section>
-            <article>
 
-            </article>
+    <main class="main">
+    
+        <br>
+        <h1 class="titu"> Hola Vapeta, aca vas a poder vestir tu Mod como mas te guste.</h1>
+        <br>
+        <p>¡Tu Mod debe ser tan único como vos, y una piel de vinilo personalizada es la manera perfecta de expresar tu
+            personalidad! <br>
+            ¡Esta increíble piel de vinilo te permitirá mostrar tu equipo favorito con un estilo único y totalmente
+            tuyo!</p>
+        <br>
+        <h2 class="titu"> Pieles de vinilo totalmente personalizadas para tus mods. </h2>
+        <br>
+        <h2 class="titu"> <b>¡Personaliza tu mod con una de nuestras Pieles de Vinilo!</b> </h2>
+        <br>
+        <p> De nuestro listado, podes elegir el tipo de vinilo, luego elegir si lo quieres liso o estampado y por
+            suspuesto podes elegir cualquier diseño de corte que desees de los que están disponibles para vestir,
+            renovar y proteger tu Mod. <br>
+            La personalización de las pieles está disponible en cualquier diseño, lo que puede
+            incluir el uso de tu propia imagen, logotipo comercial y texto personalizado. <br>
+            ¡Juntos podemos crear uno que le cuente al mundo todo sobre vos!
+            Contáctanos despues de realizar el pedido para ver una vista previa de lo que podemos hacer.
+            <br>
+    
+            Nuestras pieles se fabrican con estampadoras y cortadores profesionales a partir de vinilos de alta
+            calidad. Muy faciles de poner, su adhesivo permite que la piel se pueda quitar y reposicionar durante la
+            instalación y luego se adhiere fuertemente. <br>
+            Nuestros estampados son elegantes y con estilo, muy resistentes al manoseo y los
+            rayones. Esto asegurará que sus pieles se vean geniales durante mucho tiempo.
+            El adhesivo es bastante fuerte pero permitirá que la piel se desprenda en una sola pieza y no dañará su
+            dispositivo.
+    
+            Este listado es solo para pieles de vinilo, hardware no incluido.
+        </p>
+        <br>
+    
+        <section id="tiposdevinilos">
+    
+            <h1 class="titu">Tipos de Vinilo</h1>
+            <br>
             
+            <div class="contenedorvinilos">
+                <h2 class="titu">Texturados</h2>            
+            <p>Vinilos con textura 3D imitando el original.</p>
+                <div class="grupo">
+                    <div class="dropvinilos">
+                        <img src="./img/carbono.jpg" alt="carbono3d" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/carbono.jpg" alt="Carbono3d" width="500">
+                            <div class="descpie">
+                                <li class="titu">Texturado</li>
+                                <ul>
+                                    <li class="lienli">Simil Carbono 3D.</li>
+                                    <li class="lienli">No puede ser estampado.</li>
+                                    <li class="lienli">Colores inalterables.</li>
+                                    <li class="lienli">Adhesion:Muy resistente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/madera clara.jpg" alt="madera clara" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/madera clara.jpg" alt="madera clara" width="500">
+                            <div class="descpie">
+                                <li class="titu">Texturado</li>
+                                <ul>
+                                    <li class="lienli">Simil Madera Clara.</li>
+                                    <li class="lienli">No puede ser estampado.</li>
+                                    <li class="lienli">Colores inalterables.</li>
+                                    <li class="lienli">Adhesion:Muy resistente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/madera oscura.jpg" alt="Madera Oscura" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/madera oscura.jpg" alt="Madera Oscura" width="500">
+                            <div class="descpie">
+                                <li class="titu">Texturado</li>
+                                <ul>
+                                    <li class="lienli">Simil Madera Oscura.</li>
+                                    <li class="lienli">No puede ser estampado.</li>
+                                    <li class="lienli">Colores inalterables.</li>
+                                    <li class="lienli">Adhesion:Muy resistente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+                <h2 class="titu">Lisos</h2>
+                <p>Vinilos lisos en colores varios con acabado mate o brilloso.</p>
+                <div class="grupo">
+            
+                    <div class="dropvinilos">
+                        <img src="./img/blanco.jpg" alt="blanco" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/blanco.jpg" alt="blanco" width="500">
+                            <div class="descpie">
+            
+                                <li class="titu">Vinilo liso</li>
+                                <ul>
+                                    <li class="lienli">Blanco con brillo y mate.</li>
+                                    <li class="lienli">Puede ser estampado.</li>
+                                    <li class="lienli">Colores con terminacion mate.</li>
+                                    <li class="lienli">Adhesión firme, pero fácil de quitar.Ideal para quien le gusta cambiar la
+                                        piel con frecuencia..</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/negro mate.jpg" alt="negro mate" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/negro mate.jpg" alt="negro mate" width="500">
+                            <div class="descpie">
+                                <li class="titu">Vinilo liso.</li>
+                                <ul>
+                                    <li class="lienli">Negro con brillo y mate.</li>
+                                    <li class="lienli">No puede ser estampado.</li>
+                                    <li class="lienli">colores inalterables.</li>
+                                    <li class="lienli">Adhesion:Muy resistente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/fluo.jpg" alt="fluo" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/fluo.jpg" alt="fluo" width="500">
+                            <div class="descpie">
+                                <li class="titu">Vinilo liso.</li>
+                                <ul>
+                                    <li class="lienli">Fluo.</li>
+                                    <li class="lienli">Pueden ser estampados los colores claros.</li>
+                                    <li class="lienli">Colores inalterables y de gran contraste.</li>
+                                    <li class="lienli">Adhesion:Muy resistente.</li>
+            
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="titu">Espejados</h2>
+                <p>Vinilos lisos con terminacion espejo o cepillado.</p>
+                <div class="grupo">
+            
+                    <div class="dropvinilos">
+                        <img src="./img/espejado.jpg" alt="espejado" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/espejado.jpg" alt="espejado" width="500">
+                            <div class="descpie">
+                                <li class="titu">Vinilo espejado liso.</li>
+                                <ul>
+                                    <li class="lienli">Espejado.</li>
+                                    <li class="lienli">Puede ser estampado.</li>
+                                    <li class="lienli">Colores con terminacion cromada y de gran contraste.</li>
+                                    <li class="lienli">Adhesivo fuerte, un poco más rígido que los demás, muy durable.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/cepillado.jpg" alt="cepillado" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/cepillado.jpg" alt="cepillado" width="500">
+                            <div class="descpie">Cepillado
+                                <li class="titu">Vinilo efecto cepillado</li>
+                                <ul>
+                                    <li class="lienli">Espejado cepillado.</li>
+                                    <li class="lienli">Puede ser estampado.</li>
+                                    <li class="lienli">Colores con terminacion efecto cepillado y de gran contraste.</li>
+                                    <li class="lienli">Adhesivo fuerte, un poco más rígido que los demás, muy durable.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/estampadoe.jpg" alt="Estampado sobre espejado" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/estampadoe.jpg" alt="Estampado sobre espejado" width="500">
+                            <div class="descpie">
+                                <li class="titu">Vinilo espejado estampado.</li>
+                                <ul>
+                                    <li class="lienli">100% personalizado.</li>
+                                    <li class="lienli">Puede ser estampado.</li>
+                                    <li class="lienli">Colores con terminacion cromada y de gran contraste.</li>
+                                    <li class="lienli">Adhesivo fuerte, un poco más rígido que los demás, muy durable.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="titu">Reflectivo</h2>
+                <p>Vinilos lisos, en colores o estampados 100% personalizado.</p>
+                <div class="grupo">
+            
+                    <div class="dropvinilos">
+                        <img src="./img/reflectivo bl.jpg" alt="Reflectivo blanco" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/reflectivo bl.jpg" alt="Reflectivo blanco" width="500">
+                            <div class="descpie">
+                                <li class="titu">Vinilo Reflectivo blanco..</li>
+                                <ul>
+                                    <li class="lienli">Blanco liso.</li>
+                                    <li class="lienli">Puede ser estampado.</li>
+                                    <li class="lienli">Terminacion reflectiva y de gran contraste.</li>
+                                    <li class="lienli">Adhesivo fuerte, realmente queda como una piel, extra durable.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/reflectivo.jpg" alt="Reflectivo color" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/reflectivo.jpg" alt="Reflectivo color" width="500">
+                            <div class="descpie">
+                                <li class="titu">Vinilo Reflectivo en colores.</li>
+                                <ul>
+                                    <li class="lienli">Reflectivo color.</li>
+                                    <li class="lienli">Puede ser estampado.</li>
+                                    <li class="lienli">Terminacion reflectiva y de gran contraste.</li>
+                                    <li class="lienli">Adhesivo fuerte, realmente queda como una piel, extra durable.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="dropvinilos">
+                        <img src="./img/estampador.jpg" alt="Estampado sobre reflectivo" width="100px" height="100px">
+                        <div class="dropvinilos-content">
+                            <img src="./img/estampador.jpg" alt="Estampado sobre reflectivo" width="500">
+                            <div class="descpie">
+                                <li class="titu">Vinilo Reflectivo estampado.</li>
+                                <ul>
+                                    <li class="lienli">100% personalizado.</li>
+                                    <li class="lienli">Puede ser estampado.</li>
+                                    <li class="lienli">Colores firmes y fuertes con terminacion reflectiva y de gran contraste.</li>
+                                    <li class="lienli">Adhesivo fuerte, realmente queda como una piel, extra durable.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+            
+            </div>
+            <br>
         </section>
 
+        
 
+<section class="galeriadevideo">
+    <div class="galcontainer">
+        <h1 class="titu" >Galeria de videos</h1>
+        <div class="videocontainer">
+            <div class="video"><video src="./img/videos/video-1.mp4" muted></video></div>
+            <div class="video"><video src="./img/videos/video-2.mp4" muted></video></div>
+            <div class="video"><video src="./img/videos/video-3.mp4" muted></video></div>
+            <div class="video"><video src="./img/videos/video-4.mp4" muted></video></div>
+            <div class="video"><video src="./img/videos/video-5.mp4" muted></video></div>
+            <div class="video"><video src="./img/videos/video-6.mp4" muted></video></div>
+        </div>
+        <div class="popupvideo">
+            <span>&times;</span>
+            <video src="./img/videos/video-1.mp4" muted autoplay controls></video>
+        </div>
+    </div>
+</section>
+
+<section id="modelosytalles">
+    <h2 class="titu">Modelos y Talles</h2>
+    <div class="cardsContainer">
+        <div class="cardBody">
+            <img src="./img/equipos/Voopoo Drag1.jpg" alt="Voopoo Drag1" class="cardImage">
+            <h6 class="cardTitle calistoga-regular">Voopoo Drag 1</h6>
+            <p class="cardInfo">Voopoo Drag 1 diseñado para ser compacto, ligero, portátil y poderoso.</p>
+            <p>Tamaño: 145.5 x 36 x 30 mm.</p>
+            <div class="producCardPrice">
+                <b>Contanos tu idea.</b>
+                <span>100% a tu gusto!!</span>
+            </div>
+            <button>Contactanos</button>
+        </div>
+        <div class="cardBody">
+            <img src="./img/equipos/Istick Pico.jpg" alt="Istick Pico" class="cardImage">
+            <h6 class="cardTitle calistoga-regular">Istick Pico</h6>
+            <p class="cardInfo">Istick Pico compacto y sorprendente tanto en desempeño como estética.</p>
+            <p>Tamaño: 45 x 23 x 70.5 mm</p>
+            <div class="producCardPrice">
+                <b>Contanos tu idea.</b>
+                <span>100% a tu gusto!!</span>
+
+            </div>
+            <button>Contactanos</button>
+
+        </div>
+        <div class="cardBody">
+            <img src="./img/equipos/Minikin V2.jpg" alt="Minikin V2" class="cardImage">
+            <h6 class="cardTitle calistoga-regular">Minikin V2</h6>
+            <p class="cardInfo">Minikin V2 presenta un cuerpo rediseñado para ser excepcionalmente cómodo de sostener,180 vatios y soporte de pantalla táctil.</p>
+            <p>Tamaño: 80.4 x 40.5 x 36.0 mm</p>
+            <div class="producCardPrice">
+                <b>Contanos tu idea.</b>
+                <span>100% a tu gusto!!</span>
+            </div>
+            <button>Contactanos</button>
+
+        </div>
+        <div class="cardBody">
+            <img src="./img/equipos/Yihi Sx Mini G.jpg" alt="Yihi Sx Mini G" class="cardImage">
+            <h6 class="cardTitle calistoga-regular">Yihi Sx Mini G...Sexy y atrevido</h6>
+            <p class="cardInfo">Yihi Sx Mini G...Sexy y atrevido, un cuerpo de alta calidad construido en aleación de zinc y acero inoxidable</p>
+            <p>Tamaño:94 x 47,7 x 34,3mm</p>
+            <div class="producCardPrice">
+                <b>Contanos tu idea.</b>
+                <span>100% a tu gusto!!</span>
+            </div>
+            <button>Contactanos</button>
+
+        </div>
+    </div>
+
+</section>
 
     </main>
 
+
+
     <aside>
+        <section id="comovestir">
+            <div class="flexvestir">
+            <h2 class="titu">Como vestir el mod</h2>
 
+                <div class="cap">
+                    <img class="modmod" src="./img/como vestir/comoves1.jpg" width="100" alt="vestir1">
 
+                    <p class="parraves">Asegurate de que tus manos están limpias.(La suciedad y los aceites pueden
+                        interferir con el proceso, así que lavate las manos para obtener los mejores resultados.)
+                    </p>
+                </div>
+                <div class="cap">
+                    <img class="modmod" src="./img/como vestir/comoves2.jpg" width="100" alt="vestir1">
+
+                    <p>Limpia tu dispositivo también. Si hay suciedad en él, no se va a adherir correctamente o se
+                        formaran burbujas de aire. </p>
+                </div>
+                <div class="cap">
+                    <img class="modmod" src="./img/como vestir/comoves3.jpg" width="100" alt="vestir1">
+
+                    <p>Presenta la piel sobre el equipo en su ubicación correcta.</p>
+                </div>
+                <div class="cap">
+                    <img class="modmod" src="./img/como vestir/comoves4.jpg" width="100" alt="vestir1">
+
+                    <p>Retira la piel del papel siliconado, asegurandote de no doblarla y de pulverizar con agua
+                        sobre el pegamento, esto permitirá re-posicionar en caso de ser necesario y evitara la
+                        formación de burbujas de aire. En caso de ser vinilo + transportador(Papel que va encima del
+                        vinilo) este no debe despegarse para la aplicación de la piel.</p>
+                </div>
+                <div class="cap">
+                    <img class="modmod" src="./img/como vestir/comoves5.jpg" width="100" alt="vestir1">
+
+                    <p>Aplica la piel a tu mod, guiandote por las perforaciones de los botones, asegurate de que
+                        esté correctamente alineado, para luego ir pegandolo desde el centro hacia los extremos.</p>
+                </div>
+                <div class="cap">
+                    <img class="modmod" src="./img/como vestir/comoves6.jpg" width="100" alt="vestir1">
+
+                    <p>Pasa los dedos hacia arriba y
+                        abajo sobre la piel para expulsar el
+                        aire y el agua, con extremo
+                        cuidado de que no entre agua al
+                        interior del equipo, secando con un
+                        paño o papel absorbente. Haz lo
+                        mismo con todas las piezas.
+                        En caso de ser vinilo +
+                        transportador(Papel que va encima
+                        del vinilo) dejar secar hasta que el
+                        vinilo haya quedado bien adherido
+                        al equipo para poder retirar el
+                        transportador.
+                    </p>
+                </div>
+                <div class="cap">
+                    <img class="modmod" src="./img/como vestir/comoves7.jpg" width="100" alt="vestir1">
+
+                    <p>Deja que tu equipo descanse un
+                        poco para que el adhesivo
+                        realmente tome. Evita guardarlo en
+                        tu bolsillo durante al menos 24Hs,
+                        de lo contrario, todo tu
+                        arduo trabajo podría ser en vano.
+                        Para que el vinilo se adapte a las
+                        curvas del equipo, usaremos un
+                        secador de cabello en la posición
+                        más baja y calentaremos (a 10 o 15cm)
+                        el vinilo a medida que lo vamos
+                        aplicando. Poniendo mayor énfasis
+                        en los bordes, dando forma a la
+                        piel con la ayuda de los dedos, un
+                        pompón de algodón e incluso un
+                        cotonete para los pequeños espacios.</p>
+                </div>
+            </div>
+        </section>
+    <div class="descargas">
+        <div class="tarjeta">
+            <h3>Descarga nuestra tarjeta de contactos</h3>
+        <a href="./img/tajeta.jpg" download><img src="./img/tajeta.jpg" width="100px" alt="Tarjeta"/></a>
+        </div>
+        <div class="instrucciones">
+            <h3>Descarga las instrucciones para Vestirlo</h3>
+        <a href="./img/Como vestir el mod.pdf" download><img src="./img/Como vestir el mods.jpg" height="147px" alt="Instrucciones como vestir el mod"/></a>
+        </div>
+    </div>
     </aside>
 
-    <footer>
 
+
+    <div class="imagen">
+        <!--imagen1-->
+        <img src="./img/equipos/Voopoo Drag1desp.png" width="300px" height="300px"/>
+        <!--imagen2-->
+        <img class="arriba" src="./img/equipos/Voopoo Drag1.jpg" width="300px" height="300px" />
+     </div>
+
+
+     <div class="cardBody">
+        <div class="imagen cardImage">
+            <!--imagen1-->
+            <img src="./img/equipos/Voopoo Drag1desp.png" width="300px" height="300px"/>
+            <!--imagen2-->
+            <img class="arriba" src="./img/equipos/Voopoo Drag1.jpg" width="300px" height="300px" />
+         </div>>
+        <h6 class="cardTitle calistoga-regular">Voopoo Drag 1</h6>
+        <p class="cardInfo">Voopoo Drag 1 diseñado para ser compacto, ligero, portátil y poderoso.</p>
+        <p>Tamaño: 145.5 x 36 x 30 mm.</p>
+        <div class="producCardPrice">
+            <b>Contanos tu idea.</b>
+            <span>100% a tu gusto!!</span>
+        </div>
+        <button>Contactanos</button>
+    </div>
+
+    <footer class="footer">
+       
+        <div class="columnas320">
+    <nav class="nav1">
+    
+        <ul class="flex-container">
+            <li class="barra b8"><a href="mailto:ysfiorucci@gmail.com">Email</a></li>
+            <li class="barra b1"><a href="index.html">Inicio</a></li>
+            <li class="barra b9"><a target="_blank" href="https://www.facebook.com/viniloof/photos_albums">Trabajos</a></li>
+            <li class="barra b10"><a href="./pages/contacto.html">Contacto</a></li>
+            <li class="dropdawntiposdevinilo">
+                <button class="tipobtn"> Tipo de Vinilo</button>
+    
+                <ul class="tiposdevinilo">
+                    <li class="barra b2"><a href="#tiposdepieles">Tipos de pieles</a></li>
+                    <li class="barra b3"><a href="#personalizados">Personalizados</a></li>
+                    <li class="barra b5"><a href="#comovestir">Como vestirlo</a></li>
+                    <li class="barra b7"><a href="./pages/precios.html">Precios</a></li>
+                    <li class="barra b6"><a href="./pages/horarios.html">Horarios</a></li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <br>
+<div class="linkspngs">
+    <a href="https://wa.me/5493364579473/?text=contacta con Pieles de Vinilo" onclick="linkExterno();" target="_blank">
+    <img src="./img/Iconos/whatsapp.png" width="30" height="30"></a>
+    <a href="https://www.facebook.com/pielesdeviniloof/photos_albums" onclick="linkExterno();" target="_blank">
+    <img src="./img/Iconos/facebook.png" width="30" height="30"></a>
+    <a href="https://www.instagram.com/pielesdeviniloof/" onclick="linkExterno();" target="_blank">
+    <img src="./img/Iconos/instagram.png" width="30" height="30"></a>
+</div>
+</div>
+        <div class="divpfooter">
+            <p>Pagina realizada por 10anselmos</p>
+            <p>&copy;2024</p>
+        </div>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>-->
+        <script src="./js/script.js"></script>
 </body>
+
 </html>

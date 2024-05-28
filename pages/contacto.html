@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+    <header class="header">
+        <img src="../img/pielesdevinilostk.png" alt="Pieles de vinilo" class="pielsticker" />
+    
+        <button id="abrir" class="abrir-menu"> <img src="../img/Iconos/burguer.png" width="50px" alt="abrir-menu"><i
+                class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"> <img src="../img/Iconos/close.png" width="50px" alt="cerrar-menu"> <i
+                    class="bi bi-x"></i></button>
+            <ul class="flex-container">
+                <li class="barra b8">
+                    <a href="mailto:ysfiorucci@gmail.com">Email</a>
+                </li>
+                <li class="barra b6"><a href="./horarios.html">Horarios</a></li>
+                <li class="barra b1"><a href="../index.html">Inicio</a></li>
+                <li class="barra b7"><a href="./precios.html">Precios</a></li>
+                <li class="barra b9">
+                    <a target="_blank" href="https://www.facebook.com/pielesdeviniloof/photos_albums">Trabajos</a>
+                </li>
+        </nav>
+        <br>
+    </header>
+
+    <main class="mainhs">
+        <h1 style="font-family: Calistoga, serif;font-size: 30px;">Hoja de contacto.</h1>
+        <form method="" action="" style="border-width: 1px;border-radius: 6px;"><label class="form-label fw-semibold" for="nombre1" style="margin: 8px;width: auto;height: 24px;">Nombre</label><input type="text" id="nombre1" name="nombre1" placeholder=" Nombre" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;padding: 0 0 0 6px;"><label class="form-label fw-semibold" for="apellido1" style="margin: 8px;width: auto;height: 24px;">Apellido</label><input type="text" id="apellido1" name="apellido1" placeholder=" Apellido" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;padding: 0 0 0 6px;"><br><label class="form-label fw-semibold" for="telefono1" style="width: auto;height: 24px;margin: 8px;">Telefono</label><input type="tel" id="telefono1" name="telefono1" placeholder="+549447653258" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;padding: 0 0 0 6px;"><label class="form-label fw-semibold" for="email" style="width: auto;height: 24px;margin: 8px;">Email</label><input type="email" id="email" name="Email" placeholder=" ismael@cualmail.com" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;padding: 0 0 0 6px;"><br><label class="form-label fw-semibold" for="marcaymodelo" style="width: auto;height: 24px;margin: 8px;">Marca y modelo del equipo:</label><input type="text" id="marcaymodelo" name="Marca y modelo del equipo" placeholder=" Drag 1" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;margin: 4px;padding: 0 0 0 6px;"><br><span class="fw-semibold" style="width: auto;height: 24px;margin: 8px;"> Tipo de Vinilo: </span><select name="tipodevinilo" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;padding: 0 0 0 6px;">
+                <option value="Negromate">Negro Mate</option>
+                <option value="Carbono">Carbono</option>
+                <option value="Maderaclara">Madera Clara</option>
+                <option value="Maderaoscura">Madera Oscura</option>
+                <option value="Blanco">Blanco</option>
+                <option value="Fluo">Fluo</option>
+                <option value="Espejado">Espejado</option>
+                <option value="Cepillado">Cepillado</option>
+                <option value="Reflectivo">Reflectivo</option>
+            </select><br><span style="font-family: Calistoga, serif;"> Indique trabajo: </span><br><span class="fw-semibold" style="width: auto;height: 24px;margin: 8px;"> Sin estampado: </span><input type="radio" name="indique trabajo"><br><span class="fw-semibold" style="width: auto;height: 24px;margin: 8px;">Con estampado: </span><input type="radio" name="indique trabajo"><br><label class="form-label fw-semibold" for="cantidad" style="width: auto;height: 24px;margin: 8px;">Cantidad</label><input type="number" id="cantidad" name="cantidad" placeholder=" 0" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;padding: 0 0 0 6px;"><br><label class="form-label" for="comentario" style="font-family: Calistoga, serif;">Comentario</label><br><textarea cols="60" id="comentario" name="comentario" placeholder=" Pon tu comentario" rows="5" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;width: 50%;"></textarea><br><span style="font-family: Calistoga, serif;"> Subir imagen: </span><br><input type="file" name="file1" size="60" style="border-radius: 0;width: 45%;height: 28px;margin: 2px;border: 1px none var(--bs-emphasis-color);padding: 0;"><br><input type="file" name="file2" size="60" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 0;width: 45%;height: 28px;"><br><input type="submit" value="Subir" style="border-width: 1px;border-color: var(--bs-emphasis-color);border-radius: 6px;width: auto;height: 28px;margin: 4px;padding: 0px 6px;"><br><br><span class="fw-semibold" style="font-family: Calistoga, serif;"> Datos para envio: </span><br><label class="form-label fw-semibold" for="nombre2" style="width: auto;height: 24px;margin: 8px;">Nombre:</label><input type="text" id="nombre2" name="nombre2" placeholder="Nombre" style="border-radius: 6px;margin: 4px;border-width: 1px;padding: 0 0 0 6px;"><label class="form-label fw-semibold" for="apellido2" style="width: auto;height: 24px;margin: 8px;">Apellido:</label><input type="text" id="apellido2" name="apellido2" placeholder="Apellido" style="border-width: 1px;border-radius: 6px;margin: 4px;padding: 0 0 0 6px;"><br><label class="form-label fw-semibold" for="dni" style="width: auto;height: 24px;display: inline-block;margin: 8px;">DNI:</label><input class="form-control" type="text" id="dni" name="DNI:" placeholder="50555222" style="display: inline-block;border-radius: 6px;margin: 4px;border-width: 1px;border-color: var(--bs-emphasis-color);height: 28px;width: 189px;padding: 0 0 0 6px;"><label class="form-label fw-semibold" for="telefono2" style="width: auto;height: 24px;margin: 8px;">Teléfono:</label><input type="tel" id="telefono2" name="telefono2" placeholder="+549447653258" style="border-width: 1px;border-radius: 6px;margin: 4px;padding: 0 0 0 6px;"><br><label class="form-label fw-semibold" for="suc.oca" style="width: auto;height: 24px;margin: 8px;">Suc.Oca:</label><input type="text" id="suc.oca" name="suc.oca" placeholder="Suc. Diagonal Norte" style="margin: 4px;border-radius: 6px;border-width: 1px;border-color: var(--bs-emphasis-color);padding: 0 0 0 6px;"><label class="form-label fw-semibold" for="dirdesucursal" style="width: auto;height: 24px;margin: 8px;">Dirección de sucursal:</label><input type="text" id="dirdesucursal" name="Direccion de sucursal" placeholder="Diagonal Norte 3456" style="border-width: 1px;border-radius: 6px;margin: 4px;padding: 0 0 0 6px;"><br><label class="form-label fw-semibold" for="localidad" style="width: auto;height: 24px;margin: 8px;">Localidad:</label><input type="text" id="localidad" name="Localidad" placeholder="Santa Cecilia" style="border-width: 1px;border-radius: 6px;margin: 4px;padding: 0 0 0 6px;"><label class="form-label fw-semibold" for="provincia" style="width: auto;height: 24px;margin: 8px;">Provincia:</label><input type="text" id="provincia" name="Provincia" placeholder="Corrientes" style="border-radius: 6px;border-width: 1px;margin: 4px;padding: 0 0 0 6px;"><br><label class="form-label fw-semibold" for="codpos" style="width: auto;height: 24px;margin: 8px;">Cod.Post:&nbsp;</label><input type="text" id="codpos" name="Cod.Post: " placeholder=" 3700" style="border-width: 1px;border-radius: 6px;width: 75px;padding: 0 0 0 6px;"><br><button class="btn btn-sm fw-semibold text-center justify-content-center" type="submit" style="width: auto;height: 28px;text-align: center;margin: 4px;border-radius: 6px;background: rgb(255,255,255);display: inline-flex;border-width: 1px;border-color: var(--bs-btn-color);padding: 1px 6px;">Enviar</button><button class="btn btn-sm fw-semibold text-center" type="reset" style="width: auto;height: 28px;text-align: center;margin: 4px;border-radius: 6px;background: rgb(255,255,255);display: inline-flex;border: 1px solid var(--bs-emphasis-color);padding: 1px 6px;">Restablecer</button></form>
+    </main>
+
+    <footer class="footer">
+       
+        <div class="columnas320">
+    <nav class="nav1">
+    
+        <ul class="flex-container">
+            <li class="barra b8"><a href="mailto:ysfiorucci@gmail.com">Email</a></li>
+            <li class="barra b1"><a href="../index.html">Inicio</a></li>
+            <li class="barra b9"><a target="_blank" href="https://www.facebook.com/viniloof/photos_albums">Trabajos</a></li>
+            <li class="barra b7"><a href="./precios.html">Precios</a></li>
+            <li class="barra b6"><a href="./horarios.html">Horarios</a></li>
+            
+        </ul>
+    </nav>
+    <br>
+<div class="linkspngs">
+    <a href="https://wa.me/5493364579473/?text=tu%20texto%20personalizado" target="_blank">
+    <img src="../img/Iconos/whatsapp.png" width="30" height="30"></a>
+    <a href="https://www.facebook.com/pielesdeviniloof/photos_albums" target="_blank">
+    <img src="../img/Iconos/facebook.png" width="30" height="30"></a>
+    <a href="https://www.instagram.com/pielesdeviniloof/" target="_blank">
+    <img src="../img/Iconos/instagram.png" width="30" height="30"></a>
+</div>
+</div>
+        <div class="divpfooter">
+            <p>Pagina realizada por 10anselmos</p>
+            <p>&copy;2024</p>
+        </div>
+
+    </footer>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>
