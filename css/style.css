@@ -14,7 +14,7 @@ body {
   padding: 20px;
   height: 100vh;
   font-family: system-ui, sans-serif;
-  background-image: url(/img/fondobody.jpg);
+  background-image: url(../img/fondobody.jpg);
   background-size: 100% 100%;
   background-origin: content-box;
   flex-direction: column;
@@ -34,7 +34,7 @@ body {
   width: 95%;
   height: 50%;
   padding: 5px;
-  background-image: url(/img/portadabigbig.jpg);
+  background-image: url(../img/portadabigbig.jpg);
   background-size: 100% 100%;
   background-origin: border-box;
 }
@@ -550,7 +550,7 @@ aside {
   vertical-align: top;
   border: solid 0px;
   border-radius: 25px;
-  background-image: url(../img/tajeta\ wat\ 2021.jpg);
+  background-image: url(../img/tajeta.jpg);
   background-size: 100% 100%;
   background-origin: border-box;
   background-repeat: no-repeat;
