@@ -449,6 +449,7 @@ cursor: pointer;
 }
 
 
+
 /* === card === */
 
 .cardsContainer {
@@ -486,9 +487,9 @@ cursor: pointer;
   border-radius: 6px;
   box-shadow: 0 2px 4px #333;
 }
-.imagen{
+/*.imagen{
   border:3px solid #0c35f0;
-}
+}*/
 .cardTitle {
   font-weight: bold;
   font-size: 18px;
@@ -535,6 +536,11 @@ cursor: pointer;
   transition: all 0.3s;
 }
 
+/* todos los modelos*/
+
+.todaslasplant{
+  border-radius: 15px;
+}
 
 /*aside*/
 
@@ -550,10 +556,10 @@ aside {
   vertical-align: top;
   border: solid 0px;
   border-radius: 25px;
-  background-image: url(../img/tajeta.jpg);
-  background-size: 100% 100%;
+  background-image: url(../img/aside\ drag\ 2.jpg);
+  background-size:contain;
   background-origin: border-box;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .flexvestir {
@@ -586,39 +592,28 @@ aside {
 
 .descargas{
   display: flex;
- color: antiquewhite;
+  flex-direction: column;
+align-items: center;
+  /*background-color: rgba(10, 10, 10, 0.486);*/
+  border-radius: 20px;
+  color: antiquewhite;
   width: 80%;
   justify-content: space-around;
 }
-.tarjeta{
+.tarjeta instrucciones{
   display: flex;
-  justify-content: space-between;
-  width: 100px;
-  flex-direction: column;
-  background-color: rgba(10, 10, 10, 0.486);
+  justify-content: center;
+  width: 80%;
+  align-items: center;
 
 }
-.instrucciones{
-  display: flex;
-  width: 259.7px;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: rgba(10, 10, 10, 0.486);
-  padding: 0%;
-}
+
 
 
 /* footer */
 
 .footer {
-  /*width: 95%;
-  border-radius: 10px;
-  justify-content: space-between;
-  align-content: center;
-  margin: auto;
-  background-image: url(../img/peakpx\ \(3\).jpg) ;
-  background-size: 90% auto;
-  background-origin: content-box;*/
+  
   display: flex;
   flex-flow:column;
   justify-content: space-between;
@@ -668,29 +663,40 @@ aside {
   margin: 50px 20px;
   float: left;
  }
-  /*aquí te agregue el efecto de transición en 0.3segundos*/
+  /*efecto de transición en 0.3segundos*/
  .imagen img {
   position: absolute;
   left: 0;
   transition: opacity 0.3s ease-in-out;
  }
- /*y con hover detectamos si el puntero de mouse esta por encima*/
+ /*con hover detectamos si el puntero de mouse esta encima*/
  .imagen img.arriba:hover {
   opacity: 0;
+ }
+
+ @media screen and (min-width: 768px){
+
+  .pantalla {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 1%;
+  }
+  .asidec {
+    width: 30%;
+    margin: 1%;
+    padding: 16px;
+  }
  }
 
 
 
 
- /* horarios */
-/*.headerfondo {
-  /*background-position: center center;
-  background-attachment:unset;
-  background-image: url(../img/portadabig.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 70%;
-  background-origin: content-box;
-}*/
 .mainhs{
   display:flex;
   flex-direction: column;
