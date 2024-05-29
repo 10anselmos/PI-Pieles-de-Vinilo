@@ -104,7 +104,6 @@ nav ul li a {
       display: flex;
       flex-direction: column;
       align-items: end;
-      /*gap: 1rem;*/
       position: absolute;
       top: 15px;
       right: 0;
@@ -157,62 +156,52 @@ nav ul li a {
 .b1 {
   order: 1;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
 }
 
 .b2 {
   order: 2;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b3 {
   order: 3;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b4 {
   order: 4;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b5 {
   order: 5;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b6 {
   flex-grow: 1;
   order: 6;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b7 {
   order: 7;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b8 {
   order: 8;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b9 {
   order: 9;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .b10 {
   order: 10;
   flex-grow: 1;
-  /*flex-basis: 8%;*/
-}
+  }
 
 .tipobtn{
   font-family: sans-serif;
@@ -224,25 +213,13 @@ nav ul li a {
   height: 15px;
   line-height: 15px;
   margin: 7px 7px;
-  background-color: rgba(210, 210, 210, 0.144);
- 
+  background-color: rgba(210, 210, 210, 0.144); 
   border: 0px;
   border-radius: 5px;
   box-shadow:
   4px 4px 6px rgba(0, 0, 0, 0.904),
   inset 1px 1px 0px 0px #fff;
-  /*background-color: rgba(245, 245, 245, 0.200);
-  color: rgb(255, 255, 255);
-  font-family: fantasy;
-  border: 0px;
-  width: 90px;
-  height: 15px;
-  line-height: 15px;
-  justify-content: center;  
-  margin: 7px 7px;
-  border-radius: 5px;
-  box-shadow:3px 3px 4px rgba(250, 248, 248, 0.521),
-  inset 5px 3px 5px #020000;*/
+  
 }
 .dropdawntiposdevinilo {
   position: relative;
@@ -288,12 +265,6 @@ nav ul li:hover {
   width: 100%;
   padding: 16px 16px;
   margin: 25px 5px;
-/*
-  display: inline-block;
-  vertical-align: top;
-  justify-content: center;
-
-  border: solid 2px rgba(210, 210, 210, 0.144);*/
   border-radius: 25px;
   background-image: url(../img/peakpx\ \(5\).jpg);
   background-size:100% 100%;
@@ -472,8 +443,6 @@ cursor: pointer;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  /*gap: 8px;*/
-  /*cursor: pointer;*/
   transition: all 0.3s;
 }
 
@@ -488,9 +457,7 @@ cursor: pointer;
   border-radius: 6px;
   box-shadow: 0 2px 4px #333;
 }
-/*.imagen{
-  border:3px solid #0c35f0;
-}*/
+
 .cardTitle {
   font-weight: bold;
   font-size: 18px;
@@ -594,8 +561,7 @@ aside {
 .descargas{
   display: flex;
   flex-direction: column;
-align-items: center;
-  /*background-color: rgba(10, 10, 10, 0.486);*/
+  align-items: center;
   border-radius: 20px;
   color: antiquewhite;
   width: 80%;

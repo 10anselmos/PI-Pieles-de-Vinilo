@@ -29,28 +29,7 @@ cerrar.addEventListener("click", () => {
 
 
 
-/*function linkExterno(){
-var confirmar = confirm('Estas seguro que deseas salir?');
-if (confirmar){
-  
-  window.location.href = 'https://wa.me/5493364579473/?text=contacta con Pieles de Vinilo';
 
-}else{
-  window.location.href = "";
-
-}
-}*/
-
-/*function linkExterno() {
-    let respuesta = confirm('Esta seguro que desea salir?');
-    if(respuesta == true){
-      return true;
-    }else{
-    window.location.replace("/");
-    return false;
-    }
-
-}*/
 
 function linkExterno(){
     alert('¿Estas seguro que deseas abandonar está página?');
